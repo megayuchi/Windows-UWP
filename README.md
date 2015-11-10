@@ -12,7 +12,7 @@ Sample codes of Windows 10 UWP Apps by megayuchi Source code that was demonstrat
 
 •FileOpenUWP - File Open Sample in UWP. 
 
----
+--
 
 •FFMPEG_UWP - DirectX 11 and ffmepg interop sample in UWP.
 
@@ -25,4 +25,4 @@ Sample codes of Windows 10 UWP Apps by megayuchi Source code that was demonstrat
 5. Build Windows-UWP\FFMPEG_UWP\Decoder\Decoder.vcxproj Project.
 6. Build and run Windows-UWP\FFMPEG_UWP\D3DVideoPlayer\D3DVideoPlayer.vcxproj Project.
 
----
+--
