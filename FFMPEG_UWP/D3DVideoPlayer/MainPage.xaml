@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="D3DVideoPlayer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:D3DVideoPlayer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <SwapChainPanel x:Name="swapChainPanel" AllowDrop="True" DragEnter="Grid_DragEnter" DragOver="Grid_DragEnter" Drop="Grid_Drop" Tapped="swapChainPanel_Tapped">
+
+        <!--<Button x:Name="LoadButton" Content="Load" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Background="Aqua" Click="LoadButton_Click"/>-->
+        <MediaElement x:Name="mediaElement"
+                        AreTransportControlsEnabled="True"
+                        AudioCategory="ForegroundOnlyMedia"
+                        AutoPlay="True"
+                        MediaFailed="MediaFailed"
+            />
+        <Popup x:Name="PopupSelectShader" VerticalOffset="0" HorizontalOffset="0" IsLightDismissEnabled="True" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ListBox x:Name="ShaderList" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionChanged="ShaderList_SelectionChanged" >
+            </ListBox>
+        </Popup>
+        
+    </SwapChainPanel>
+
+    <Page.BottomAppBar>
+        <AppBar x:Name="bottomAppBar" Padding="10,0,10,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <AppBarButton x:Name="LoadButton" Icon="Document" Click="LoadButton_Click"/>
+                <AppBarButton x:Name="AboutButton" Icon="Help"/>
+                <Button x:Name="ExitButton" FontFamily="Segoe MDL2 Assets" Content="&#xE106;" Click="ExitButton_Click"/>
+
+            </StackPanel>
+
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>

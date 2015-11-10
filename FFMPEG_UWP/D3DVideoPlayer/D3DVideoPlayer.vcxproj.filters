@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>9996408e-be79-4e92-bb3f-1ebe53ba469e</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>38cecb0d-2dfd-4b78-a7e2-40c71c1830bb</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c15cceef-a223-4b3e-95eb-0fa0b97dd51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{f9b18fa7-d87c-48b2-b36b-fc2cb5eb6e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{a046f7ee-d034-46bc-b199-3d005d8cda42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d541789d-e6bf-48dd-b71c-641847e96dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLs">
+      <UniqueIdentifier>{721e134d-6021-4633-83a2-ef121004e1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLs\arm">
+      <UniqueIdentifier>{153295a1-5dc2-4ff7-861b-77b03158bd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLs\x86">
+      <UniqueIdentifier>{ee097792-ff47-49a2-bc79-eb07e1ee7dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLs\x64">
+      <UniqueIdentifier>{85633cc0-c54a-4a12-9b03-e0ad01136c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decoder">
+      <UniqueIdentifier>{a66d1240-300c-4f1a-b469-a44d293b1204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoPlayer">
+      <UniqueIdentifier>{08343b5e-eba2-4bf9-8a1e-6fc29705ba71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DHelper.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer.cpp">
+      <Filter>VideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="BlankPage.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DHelper.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_typede.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer.h">
+      <Filter>VideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="BlankPage.xaml.h" />
+    <ClInclude Include="..\Common\IDecoder.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\decoder_typedef.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\WideLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3DVideoPlayer_TemporaryKey.pfx" />
+    <None Include="math.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\DLLs\arm\avutil-54.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\avformat-56.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\avfilter-5.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\avdevice-56.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\avcodec-56.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\swscale-3.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\swresample-1.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\Decoder_arm_release.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\arm\Decoder_arm_debug.dll">
+      <Filter>DLLs\arm</Filter>
+    </None>
+    <None Include="..\DLLs\x64\avutil-54.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\Decoder_x64_debug.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\Decoder_x64_release.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\swresample-1.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\swscale-3.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\avcodec-56.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\avdevice-56.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\avfilter-5.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x64\avformat-56.dll">
+      <Filter>DLLs\x64</Filter>
+    </None>
+    <None Include="..\DLLs\x86\Decoder_x86_debug.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\Decoder_x86_release.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\swresample-1.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\swscale-3.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\avcodec-56.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\avdevice-56.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\avfilter-5.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\avformat-56.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+    <None Include="..\DLLs\x86\avutil-54.dll">
+      <Filter>DLLs\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="BlankPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Shaders\sh_sprite.hlsl">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

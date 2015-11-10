@@ -1,0 +1,8 @@
+LIBRARY     Decoder
+
+DESCRIPTION 'Decoder with ffmpeg for WinRT(UWP) 2015. yuchi'
+
+EXPORTS
+  DllCreateInstance	PRIVATE
+
+

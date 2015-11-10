@@ -1,0 +1,11 @@
+[Requirements]
+1. Windows 10 build 10240 or later
+2. Visual Studio 2015
+
+[Build]
+1. Download latest ffmpeg build. ( https://github.com/FFmpeg/FFmpeg )
+2. Build ffmpeg for WinRT. ( https://trac.ffmpeg.org/wiki/CompilationGuide/WinRT )
+3. copy ffmpeg's binary files to Windows-UWP\FFMPEG_UWP\ffmpeg folder.
+4. run copy_dlls.bat in Windows-UWP\FFMPEG_UWP folder.
+5. Build  Windows-UWP\FFMPEG_UWP\Decoder\Decoder.vcxproj Project.
+6. Build and run Windows-UWP\FFMPEG_UWP\D3DVideoPlayer\D3DVideoPlayer.vcxproj Project.

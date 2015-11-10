@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <DebuggerFlavor>WindowsDeviceDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <DebuggerMachineName>minwinpc</DebuggerMachineName>
+    <DebuggerRequireAuthentication>false</DebuggerRequireAuthentication>
+    <DebuggerFlavor>WindowsDeviceDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>WindowsAppEmulatorDebugger</DebuggerFlavor>
+    <WindowsAppEmulatorID>70B18672-03DC-435E-8FF3-71602A630B74;Mobile Emulator Preview 10.0.10563.0 QHD 5.2 inch 3GB</WindowsAppEmulatorID>
+  </PropertyGroup>
+</Project>
