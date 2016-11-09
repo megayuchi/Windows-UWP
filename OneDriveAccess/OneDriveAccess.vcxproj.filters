@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1db9f7f7-51ec-40da-9eaa-3f9b4e3ff653</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{afa295cd-bda9-4255-b2fd-716ef1ba8b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OneDriveService">
+      <UniqueIdentifier>{9af7f9fe-eb0d-4aeb-8baa-bf1af026f7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XAML">
+      <UniqueIdentifier>{dcdae24a-7496-4720-a0e8-df9cff43b51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d24a172e-10a4-4621-b848-d916ad023f4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="AuthenticationPage.xaml.cpp" />
+    <ClCompile Include="ExplorerPage.xaml.cpp" />
+    <ClCompile Include="OneDriveService.cpp">
+      <Filter>OneDriveService</Filter>
+    </ClCompile>
+    <ClCompile Include="DelegateCommand.cpp" />
+    <ClCompile Include="StringParser.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteDebugString.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FileItem.cpp">
+      <Filter>OneDriveService</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOpen.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="AuthenticationPage.xaml.h" />
+    <ClInclude Include="ExplorerPage.xaml.h" />
+    <ClInclude Include="OneDriveService.h">
+      <Filter>OneDriveService</Filter>
+    </ClInclude>
+    <ClInclude Include="DelegateCommand.h" />
+    <ClInclude Include="StringParser.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteDebugString.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileItem.h">
+      <Filter>OneDriveService</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOpen.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Images\Icon_Folder.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\Icon_Audio.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Images\Icon_Etc.png">
+      <Filter>Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OneDriveAccess_TemporaryKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="OneDriveAccess_StoreKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ExplorerPage.xaml">
+      <Filter>XAML</Filter>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Filter>XAML</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OneDriveAccess.rc" />
+  </ItemGroup>
+</Project>
