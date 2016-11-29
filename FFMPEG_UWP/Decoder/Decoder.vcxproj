@@ -109,48 +109,48 @@
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\x86</OutDir>
     <TargetName>$(ProjectName)_x86_debug</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\Win32\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\Win32\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\Win32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\Win32\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <GenerateManifest>false</GenerateManifest>
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\x86</OutDir>
     <TargetName>$(ProjectName)_x86_release</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\Win32\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\Win32\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\Win32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\Win32\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <GenerateManifest>false</GenerateManifest>
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\arm</OutDir>
     <TargetName>$(ProjectName)_arm_debug</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\arm\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\arm\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\arm\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\arm\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <GenerateManifest>false</GenerateManifest>
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\arm</OutDir>
     <TargetName>$(ProjectName)_arm_release</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\arm\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\arm\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\arm\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\arm\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <GenerateManifest>false</GenerateManifest>
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\x64</OutDir>
     <TargetName>$(ProjectName)_x64_debug</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\x64\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\x64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\x64\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <GenerateManifest>false</GenerateManifest>
     <IgnoreImportLibrary>false</IgnoreImportLibrary>
     <OutDir>..\DLLs\x64</OutDir>
     <TargetName>$(ProjectName)_x64_release</TargetName>
-    <IncludePath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\MEGAYUCHI_ROOT\FFMPEG_UWP\ffmpeg\x64\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ffmpeg\x64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ffmpeg\x64\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
