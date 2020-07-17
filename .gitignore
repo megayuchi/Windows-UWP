@@ -1,3 +1,11 @@
+# Prerequisites
+*.d
+*.sln
+*.ilk
+*.exp
+*.ipdb
+*.pdb
+
 # Compiled Object files
 *.slo
 *.lo
@@ -15,6 +23,7 @@
 
 # Fortran module files
 *.mod
+*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,3 +35,12 @@
 *.exe
 *.out
 *.app
+
+# Folders
+Debug/
+Release/
+x64/
+ARM/
+ARM64/
+symbols/
+.vs/
